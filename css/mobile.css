@@ -1,0 +1,45 @@
+@media screen and (min-width: 480px) {
+  .conteiner {
+    width: 428px;
+  }
+
+
+
+  .mob-menu-soc-list {
+    gap: 56px;
+}
+/* advantage list */
+
+
+
+  /* team-list */
+
+  .team-list {
+    padding: 96px 0;
+  }
+
+  .team-list > .conteiner {
+    width: 294px;
+  }
+
+  .team-list .list {
+    
+  }
+
+  .team-list-item {
+    width: 100%;
+    
+  }
+
+  /* client */
+
+  .client-list {
+    column-gap: 16px;
+    row-gap: 72px;
+  }
+
+  .client-item {
+    width: calc((100% - 16px) / 2);
+    height: 88px;
+  }
+}
