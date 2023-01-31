@@ -1,6 +1,7 @@
 @media screen and (min-width: 480px) {
   .conteiner {
     width: 428px;
+    padding: 0 15px;
   }
 
 
@@ -42,4 +43,8 @@
     width: calc((100% - 16px) / 2);
     height: 88px;
   }
+
+/* portfilio works */
+
+
 }

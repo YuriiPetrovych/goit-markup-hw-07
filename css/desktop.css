@@ -3,6 +3,16 @@
     width: 1200px;
   }
 
+  /* Hero */
+  .hero {
+    padding: 192px 0;
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../image/image-hero.jpg);
+  }
+
   .auth-nav {
     display: flex;
     flex-direction: row;
@@ -79,25 +89,32 @@
     width: calc((100% - 120px) / 6);
   }
 
+  /* footer */
 
-/* footer */
+  .footer > .footer-conteiner {
+    width: 1158px;
+  }
+  .wrap-footer-logo {
+    margin-right: 120px;
+  }
 
-.footer > .footer-conteiner {
-  width: 1158px;
-}
-.wrap-footer-logo {
-  margin-right: 120px;
-}
+  .feature-subscribe {
+    margin-left: 80px;
 
-.feature-subscribe {
-  margin-left: 80px;
+    margin-top: 0px;
+  }
 
-margin-top: 0px;
-}
+  .feature-subscribe-text {
+    margin-top: 0px;
+  }
 
-.feature-subscribe-text {
-  margin-top: 0px;
-}
+  /* portfilio works */
 
+  .works .list-btn {
+    justify-content: center;
+  }
 
+  .works-item {
+    flex-basis: calc((100% - 48px) / 3);
+  }
 }
