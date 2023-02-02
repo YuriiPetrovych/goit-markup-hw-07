@@ -262,6 +262,7 @@ bottom: -4px;
 .mob-menu-soc-list {
   display: flex;
   justify-content: space-between;
+  gap: 56px;
 }
 .mob-menu-soc-item {
 }
@@ -409,6 +410,7 @@ bottom: -4px;
 
 .team-list > .conteiner {
   width: 294px;
+  padding: 0 15px;
 }
 
 .team-list .list {
@@ -500,7 +502,7 @@ bottom: -4px;
 .clients-title {
   font-weight: 700;
   font-size: 36px;
-  line-height: 1.67;
+  line-height: 1.11;
   text-align: center;
   letter-spacing: 0.03em;
   margin-bottom: 72px;
@@ -615,7 +617,7 @@ bottom: -4px;
   color: var(--third-button-color);
   background-color: #4d5ae5;
 
-  width: 360px;
+  width: 375px;
   padding: 40px 32px;
   height: 100%;
 
@@ -723,6 +725,10 @@ bottom: -4px;
   background: #31d0aa;
 }
 
+.wrap-footer-soc-list {
+  margin-top: 72px;
+}
+
 .footer-title {
   display: flex;
   justify-content: center;
@@ -732,7 +738,6 @@ bottom: -4px;
   letter-spacing: 0.02em;
 
   color: #ffffff;
-  margin-top: 72px;
   margin-bottom: 16px;
 }
 
@@ -1017,8 +1022,9 @@ bottom: -4px;
   screen and (min-resolution: 2dppx) {
   .hero {
     background-image: linear-gradient(
-      rgba(46, 47, 66, 0.7),
-      rgba(46, 47, 66, 0.7)
-    ),url(../image/image-hero-x2.jpg);
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../image/image-hero-mob-x2.jpg);
   }
 }

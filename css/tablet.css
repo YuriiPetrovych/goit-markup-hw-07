@@ -91,7 +91,7 @@
 
   /* Hero */
   .hero {
-    padding: 192px 0;
+    padding: 112px 0;
     background-image: linear-gradient(
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
@@ -156,6 +156,7 @@
 
   .footer > .footer-conteiner {
     width: 552px;
+    justify-content: start;
   }
 
   .footer-title {
@@ -171,6 +172,11 @@
   .wrap-footer-logo {
     margin-right: 24px;
   }
+
+  .wrap-footer-soc-list {
+    margin-top: 0;
+  }
+
   .feature-subscribe-text {
     justify-content: start;
   }
@@ -178,8 +184,9 @@
     width: 264px;
     margin-right: 24px;
   }
-  .feature-subscribe {
-    margin-left: -45px;
+
+  .feature {
+    row-gap: 72px;
   }
 
   /* portfilio works */

@@ -4,6 +4,16 @@
     padding: 0 15px;
   }
 
+  /* HERO */
+
+  .mob-menu > .conteiner {
+    width: 400px;
+  }
+
+  .mob-menu-soc-list {
+    justify-content: start;
+  }
+
   .mob-menu-soc-list {
     gap: 56px;
   }
@@ -39,16 +49,4 @@
   }
 
   /* portfilio works */
-
-  @media screen and (min-device-pixel-ratio: 2),
-    screen and (min-resolution: 192dpi),
-    screen and (min-resolution: 2dppx) {
-    .hero {
-      background-image: linear-gradient(
-          rgba(46, 47, 66, 0.7),
-          rgba(46, 47, 66, 0.7)
-        ),
-        url(../image/image-hero-mob-x2.jpg);
-    }
-  }
 }

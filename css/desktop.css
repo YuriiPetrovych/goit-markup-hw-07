@@ -82,6 +82,10 @@
     width: 1200px;
   }
 
+  .clients-title {
+    line-height: 1.67;
+  }
+
   .client-list {
   }
 
